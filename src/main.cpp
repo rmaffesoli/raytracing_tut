@@ -92,7 +92,7 @@ int main() {
 
     camera cam(cam_pos, cam_aim, cam_up, vfov, aspect_ratio, aperture, focus_dist);
     
-    std::ofstream rgb_out("rgb_out.ppm");
+    std::ofstream rgb_out("../output/rgb_out.ppm");
     rgb_out << "P3\n" << img_w << ' ' << img_h << "\n255\n";
 
     for (int j = img_h-1; j >= 0; --j) {
