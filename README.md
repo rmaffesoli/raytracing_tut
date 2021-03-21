@@ -30,7 +30,7 @@ This raytracer must be compiled using the -std=c++11 argument. When running the 
 ```
 ![sample output](https://github.com/rmaffesoli/raytracing_tut/blob/master/output/rgb_out_final.png?raw=true)
 
-#Structure
+# Structure
   All classes are defined in their own header files while the main.cpp is used to pull everthing together when rendereding the final image.
   
 
